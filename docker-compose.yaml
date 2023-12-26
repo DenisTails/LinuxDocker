@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+ densreact:
+  build: ./
+  ports:
+   - 2509:3001
+  restart: always
+  environment:
+   PORT: 3001
